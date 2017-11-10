@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
+<head th:fragment="common-header">
 
     <title>Starter Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+    <link th:href="@{/webjars/bootstrap/3.3.6/css/bootstrap.min.css}" rel="stylesheet" media="screen"/>
 
     <!-- Custom styles for this template -->
-    <link type="text/css" >
+    <link type="text/css" th:href="@{/css/styles.css}" rel="stylesheet" media="screen"/>
 
 
 </head>
-<body>
-
-</body>
+    <div th:fragment="before-body-scripts">
+        <script src="@{/webjars/jquery/2.1.4/jquery.min.js}"></script>
+        <script src="@{/webjars/bootstrap/3.3.6/js/bootstrap.min.js)"></script>
+    </div>
 </html>
