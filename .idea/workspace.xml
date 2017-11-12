@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53d11853-1121-4edf-a09a-821738456a18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/subscriptionservice/web/controllers/ContactController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/subscriptionservice/web/domain/frontend/FeedbackPojo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/subscription.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/copy/about.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/subscriptionservice/web/IndexController.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/subscriptionservice/web/i18n/I18nService.java" afterPath="$PROJECT_DIR$/src/main/java/com/subscriptionservice/web/i18n/I18nService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/common/navbar.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/navbar.html" />
-    </list>
+    <list default="true" id="53d11853-1121-4edf-a09a-821738456a18" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
