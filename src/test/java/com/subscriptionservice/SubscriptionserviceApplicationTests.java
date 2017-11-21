@@ -1,6 +1,7 @@
 package com.subscriptionservice;
 
-import com.subscriptionservice.web.i18n.I18nService;
+import com.subscriptionservice.backend.service.EmailService;
+import com.subscriptionservice.backend.service.I18nService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +13,7 @@ import java.io.IOException;
 public class SubscriptionserviceApplicationTests {
 
 	@Autowired
-	I18nService i18nService;
+    private I18nService i18nService;
 
 	@Test
 	public void testMessageByLocaleService() throws IOException{

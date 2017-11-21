@@ -1,4 +1,4 @@
-package com.subscriptionservice.web.i18n;
+package com.subscriptionservice.backend.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,14 +11,14 @@ import java.util.Locale;
 
 @Service
 public class I18nService {
-    
+
     private static final Logger log = LoggerFactory.getLogger(I18nService.class);
-    
+
     @Autowired
     private MessageSource messageSource;
 
     public String getMessage(String messageId){
-        log.info("Retrning i18n message for message id {}", messageId);
+        log.info("Returning i18n message for message id {}", messageId);
         Locale locale= LocaleContextHolder.getLocale();
         return getMessage(messageId,locale);
     }
