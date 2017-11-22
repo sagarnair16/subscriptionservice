@@ -56,7 +56,6 @@ public class Role implements Serializable {
         Role role = (Role) o;
 
         return id == role.id;
-
     }
 
     @Override

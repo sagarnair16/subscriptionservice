@@ -16,7 +16,7 @@ public class UserRole implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private int id;
 
     public UserRole(User user, Role role) {
         this.user = user;
@@ -53,7 +53,7 @@ public class UserRole implements Serializable {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -65,11 +65,10 @@ public class UserRole implements Serializable {
         UserRole userRole = (UserRole) o;
 
         return id == userRole.id;
-
     }
 
     @Override
     public int hashCode() {
-        return (int) (id ^ (id >>> 32));
+        return id;
     }
 }

@@ -45,7 +45,6 @@ public class Plan implements Serializable {
         Plan plan = (Plan) o;
 
         return id == plan.id;
-
     }
 
     @Override

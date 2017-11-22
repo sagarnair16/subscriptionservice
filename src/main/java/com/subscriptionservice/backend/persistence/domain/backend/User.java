@@ -21,7 +21,7 @@ public class User implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private int id;
 
     @Column(unique = true)
     private String username;
@@ -73,7 +73,7 @@ public class User implements Serializable {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -183,8 +183,6 @@ public class User implements Serializable {
         this.userRoles = userRoles;
     }
 
-
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -193,13 +191,10 @@ public class User implements Serializable {
         User user = (User) o;
 
         return id == user.id;
-
     }
 
     @Override
     public int hashCode() {
-        return (int) (id ^ (id >>> 32));
+        return id;
     }
-
-
 }
